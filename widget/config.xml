@@ -27,5 +27,8 @@
 	<permission name="fileSystem" />
 	<permission name="internet" />
 	<permission name="bootCompleted" />
-	<permission name="hardware" />
+	<permission name="hardware" />  <!-- 地图定位 -->  <feature name="bMap">
+    <param name="android_api_key" value="SDkzbSwakK81F8DwKc4YsjYRbjVn3Aop" />
+    <param name="ios_api_key" value="ezuGNXSZeSz61YBq5vFuzzlvBcL6KLtQ" />
+  </feature>
 </widget>
